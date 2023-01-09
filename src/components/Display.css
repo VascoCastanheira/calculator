@@ -1,7 +1,7 @@
-.display{
+.display {
     grid-column: span 4;
     background-color: #424242;
-    
+
     display: flex;
     justify-content: flex-end;
     align-items: center;

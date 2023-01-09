@@ -2,9 +2,9 @@ import React from "react";
 import './Button.css'
 
 
-export default props => 
+export default props =>
     <button
-        onClick={e => props.click && props.click(props.label)} 
+        onClick={e => props.click && props.click(props.label)}
         className={`
         button
         ${props.operation ? 'operation' : ''}
